@@ -1,0 +1,19 @@
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+  "code": "girardi",
+  "url": "https://www.github.com/mauriciogirardi"
+}
+
+###
+
+GET http://localhost:3333/api/links
+
+###
+
+GET http://localhost:3333/girardi
+
+###
+
+GET http://localhost:3333/api/metrics
