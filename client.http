@@ -2,7 +2,7 @@ POST http://localhost:3333/api/links
 Content-Type: application/json
 
 {
-  "code": "girardi",
+  "code": "test2",
   "url": "https://www.github.com/mauriciogirardi"
 }
 
